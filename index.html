@@ -9,14 +9,383 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- header section start -->
     <header class="header">
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-between">
           <div class="logo">
-            <a href="#">logo</a>
+            <a href="#">The Webshala</a>
           </div>
+          <input type="Checkbox" id="nav-check" />
+          <label for="nav-checks" class="nav-toggler">
+            <span></span>
+          </label>
+          <nav class="nav">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#why-us">Why us</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#review">Reviews</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
+    <!-- header section end -->
+
+    <section class="home-section" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="home-text">
+            <h1>Fall in Love With <span>Coading</span></h1>
+            <h2>Explore the world of Competitive Programming.</h2>
+            <a href="#courses" class="btn btn-l">Get Started</a>
+          </div>
+          <div class="home-img">
+            <div class="home-img-inner">
+              <div class="home-courses">
+                <div class="home-courses-item">Html</div>
+                <div class="home-courses-item">Css</div>
+                <div class="home-courses-item">Java</div>
+                <div class="home-courses-item">React</div>
+              </div>
+              <img src="img/home-img.png" alt="home-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- why-us-section -->
+    <section class="why-us-section sec-padding" id="why-us-section">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Why <span>Us</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- 1st whyus -->
+          <div class="why-us-item">
+            <div class="icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Experience Trainer</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              labore ab minus tenetur aperiam voluptatibus culpa, error
+              necessitatibus qui
+            </p>
+          </div>
+          <!-- 2nd whyus -->
+          <div class="why-us-item">
+            <div class="icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Experience Trainer</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              labore ab minus tenetur aperiam voluptatibus culpa, error
+              necessitatibus qui
+            </p>
+          </div>
+          <!-- 3rd whyus -->
+          <div class="why-us-item">
+            <div class="icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Experience Trainer</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              labore ab minus tenetur aperiam voluptatibus culpa, error
+              necessitatibus qui
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- why-us-section end -->
+
+    <!-- courses section -->
+    <div class="courses-section sec-padding" id="courses">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2><span>Popular</span>Section</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- 1st course -->
+          <div class="courses-item">
+            <a href="#">
+              <div class="course-img">
+                <img src="img/courses/1.jpg" alt="courses-img" />
+                <div class="course-price">
+                  $49
+                </div>
+              </div>
+              <div class="course-info">
+                <ul>
+                  <li>25 Lectures</li>
+                  <li>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </li>
+                </ul>
+                <h3>Javascript</hh3>
+              </div>
+            </a>
+          </div>
+         <!-- 2nd course -->
+          <div class="courses-item">
+            <a href="#">
+              <div class="course-img">
+                <img src="img/courses/2.jpg" alt="courses-img" />
+                <div class="course-price">
+                  $125
+                </div>
+              </div>
+              <div class="course-info">
+                <ul>
+                  <li>30 Lectures</li>
+                  <li>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </li>
+                </ul>
+                <h3>Php Programming</hh3>
+              </div>
+            </a>
+          </div>
+          <!-- 3rd course -->
+          <div class="courses-item">
+            <a href="#">
+              <div class="course-img">
+                <img src="img/courses/3.jpg" alt="courses-img" />
+                <div class="course-price">
+                  $25
+                </div>
+              </div>
+              <div class="course-info">
+                <ul>
+                  <li>10 Lectures</li>
+                  <li>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </li>
+                </ul>
+                <h3>Bootstrap</hh3>
+              </div>
+            </a>
+          </div>
+           <!-- 4th course -->
+          <div class="courses-item">
+            <a href="#">
+              <div class="course-img">
+                <img src="img/courses/4.jpg" alt="courses-img" />
+                <div class="course-price">
+                  $12
+                </div>
+              </div>
+              <div class="course-info">
+                <ul>
+                  <li>15 Lectures</li>
+                  <li>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </li>
+                </ul>
+                <h3>React JS</hh3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- courses section end -->
+
+
+
+    <!-- fun fact section -->
+    <section class="fun-facts-section sec-padding">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Our <span>Achievements</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="fun-facts-img">
+            <img src="img/fun-facts-img.png" alt="fun-fact-image">
+          </div>
+          <div class="fun-fact-items">
+            <div class="row">
+              <div class="fun-fact-item">
+                <h3>5K</h3>
+                <p>Finished Session</p>
+              </div>
+              <div class="fun-fact-item">
+                <h3>50K</h3>
+                <p>Enroll Student</p>
+              </div>
+              <div class="fun-fact-item">
+                <h3>20+</h3>
+                <p>Total Courses</p>
+              </div>
+              <div class="fun-fact-item">
+                <h3>95%</h3>
+                <p>Satisfaction Rate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+    <!-- fun fact section end -->
+
+
+<!-- review section -->
+<section class="reviews-section sec-padding" id="reviews">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>What Our<span>Student</span>Saying</h2>
+      </div>
+    </div>
+<div class="row">
+
+
+  <div class="review-item">
+    <img src="img/reviews/1.jpg" alt="student img">
+    <p> <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque obcaecati, nobis nulla praesentium doloremque animi <i class="fas fa-quote-left"></i> </p>
+    <h3>Nimisha Badiyani</h3>
+    <span>Student</span>
+  </div>
+
+  <div class="review-item">
+    <img src="img/reviews/2.jpg" alt="student img">
+    <p> <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque obcaecati, nobis nulla praesentium doloremque animi <i class="fas fa-quote-left"></i> </p>
+    <h3>Nimisha Badiyani</h3>
+    <span>Student</span>
+  </div>
+
+  <div class="review-item">
+    <img src="img/reviews/3.jpg" alt="student img">
+    <p> <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque obcaecati, nobis nulla praesentium doloremque animi <i class="fas fa-quote-left"></i> </p>
+    <h3>Nimisha Badiyani</h3>
+    <span>Student</span>
+  </div>
+
+  <div class="review-item">
+    <img src="img/reviews/4.jpg" alt="student img">
+    <p> <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque obcaecati, nobis nulla praesentium doloremque animi <i class="fas fa-quote-left"></i> </p>
+    <h3>Nimisha Badiyani</h3>
+    <span>Student</span>
+  </div>
+</div>
+  </div>
+</section>
+
+<!-- review section end -->
+
+<!-- contact section -->
+<section class="contact-section sec-padding" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>Contact <span>Us</span></h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="contact-img">
+        <img src="img/contact-img.png" alt="contact-img">
+      </div>
+      <div class="contact-form">
+        <form action="#">
+          <div class="input-form">
+            <input type="text" placeholder="Name" class="form-control">
+          </div>
+
+          <div class="input-form">
+            <input type="text" placeholder="E-mail" class="form-control">
+          </div>
+
+          <div class="input-form">
+            <input type="text" placeholder="Phone" class="form-control">
+          </div>
+
+          <div class="input-form">
+            <textarea placeholder="Message" class="form-control"></textarea>
+          </div>
+<button type="submit" class="btn btn-l">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact section end -->
+
+<!-- footer start -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-item footer-about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, repellendus. Fugit laborum voluptas illo odit ut maxime voluptates sequi</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-item footer-quick-links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Stories</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Log-in</a></li>
+          <li><a href="#">Sign-in</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-item footer-contact">
+        <h2>Contact Us</h2>
+        <p><i class="fas fa-map-marker-alt"></i>Xyz floor,12 Sector,New Delhi</p>
+        <p><i class="fas fa-phone"></i>+91 1111111111</p>
+        <p><i class="fas fa-envelope"></i>Example@gmail.com</p>
+      </div>
+
+      <div class="footer-item footer-newsletter">
+        <h2>Newsletter</h2>
+        <form>
+          <div class="input-group">
+            <input type="text" placeholder="Your E-mail" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-l">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer end -->
+
   </body>
 </html>
